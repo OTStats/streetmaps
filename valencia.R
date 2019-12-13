@@ -89,3 +89,7 @@ library(ggimage)
 d <- image_read(path = "../Desktop/valencia.png")
 
 d %>% image_frame(color = "black")
+
+
+pp <- p + theme(plot.margin=grid::unit(c(2,2,2,2), "mm"))
+ggsave(filename = "../Desktop/valencia-4.png", pp)
