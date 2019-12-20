@@ -93,3 +93,39 @@ d %>% image_frame(color = "black")
 
 pp <- p + theme(plot.margin=grid::unit(c(2,2,2,2), "mm"))
 ggsave(filename = "../Desktop/valencia-4.png", pp)
+
+
+# Other ####
+
+border <- ggplot() + 
+  geom_segment(aes(x = 0, xend = 5, y = 0, yend = 0), size = 3) + 
+  geom_segment(aes(x = 0, xend = 5, y = 10, yend = 10), size = 3) + 
+  geom_segment(aes(x = 0, xend = 0, y = 0, yend = 10), size = 3) + 
+  geom_segment(aes(x = 5, xend = 5, y = 0, yend = 10), size = 3) 
+  # theme_void() + 
+  annotation_custom(grob = ggplotGrob(plot))
+plot <- p + theme(plot.margin=grid::unit(c(1,1,1,1), "mm"))
+
+
+ggdraw(border) + 
+  draw_plot(pp, width = .7, x = 0, y = 0)
+
+
+ggplot() + 
+  geom_segment(aes(x = 0, xend = 5, y = 0, yend = 0), size = 3) + 
+  geom_segment(aes(x = 0, xend = 5, y = 10, yend = 10), size = 3) + 
+  geom_segment(aes(x = 0, xend = 0, y = 0, yend = 10), size = 3) + 
+  geom_segment(aes(x = 5, xend = 5, y = 0, yend = 10), size = 3) +
+# theme_void() + 
+annotation_custom(grob = ggplotGrob(plot), 
+                  xmin = 0.5, 
+                  xmax = 4.5, 
+                  ymax = 9.5, 
+                  ymin = 6.5)
+
+
+
+# cowplot
+ggdraw(xlim = c(0, 5), ylim = c(0, 10)) + 
+  draw_plot(border, x = 0, y = 0, width = 5, height = 10) + 
+  draw_plot(plot, x = 0, width = 5, y = 4, height = 4)
