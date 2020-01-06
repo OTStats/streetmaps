@@ -12,3 +12,8 @@
 + [Remove Plot Margins in ggplot2](https://stackoverflow.com/questions/17786197/remove-plot-margins-in-ggplot2)
 + [Advanced Image-Processing in R with Magick, Part I](https://ropensci.org/blog/2016/08/23/z-magick-release/)
 + [Drawing beautiful maps programmatically with R, sf and ggplot2 — Part 1: Basics](https://www.r-spatial.org/r/2018/10/25/ggplot2-sf.html)
++ [Print Beautiful City Street Maps with R](https://taraskaduk.com/2019/12/20/print-maps/)
++ [The Beautiful Hidden Logic of Cities](https://erdavis.com/2019/07/27/the-beautiful-hidden-logic-of-cities/)
++ [Road Suffixes in the USA – Take 2](https://erdavis.com/2019/07/04/road-suffixes-in-the-usa-take-2/)
+
++ [Nashville map](https://society6.com/product/nashville-white-map_poster?sku=s6-8457988p66a213v756)

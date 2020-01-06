@@ -16,7 +16,7 @@ nash_river <- getbb("Nashville TN") %>%
   osmdata_sf()
 
 ggplot() +
-  geom_sf(data = streets$osm_lines,
+  geom_sf(data = nash_streets$osm_lines,
           inherit.aes = FALSE,
           color = "black",
           size = .4,
@@ -52,28 +52,24 @@ ggplot() +
 
 
 ggplot() +
-  geom_sf(data = mke_streets$osm_lines,
+  geom_sf(data = nash_streets$osm_lines,
           inherit.aes = FALSE,
           color = "#7fc0ff",
           size = .4,
           alpha = .8) +
-  geom_sf(data = mke_small_streets$osm_lines,
+  geom_sf(data = nash_small_streets$osm_lines,
           inherit.aes = FALSE,
           color = "#ffbe7f",
           size = .2,
           alpha = .6) +
-  geom_sf(data = mke_river$osm_lines,
+  geom_sf(data = nash_river$osm_lines,
           inherit.aes = FALSE,
           color = "#ffbe7f",
           size = .2,
-          alpha = .5) +
-  geom_sf(data = mke_water$osm_lines,
-          inherit.aes = FALSE,
-          color = "#ffbe7f",
-          size = .2,
-          alpha = .5) +
-  coord_sf(xlim = c(-87.85, -88.1), 
-           ylim = c(42.91, 43.2),
+          alpha = .5) + 
+  coord_sf(xlim = c(-87.05, -86.5), 
+           ylim = c(35.97, 36.4),
            expand = FALSE) + 
-  theme_void() +
+  theme_void() + 
   theme(plot.background = element_rect(fill = "#282828"))
+  
