@@ -17,3 +17,7 @@
 + [Road Suffixes in the USA – Take 2](https://erdavis.com/2019/07/04/road-suffixes-in-the-usa-take-2/)
 
 + [Nashville map](https://society6.com/product/nashville-white-map_poster?sku=s6-8457988p66a213v756)
+
+
++ [city-roads tweet](https://twitter.com/paldhous/status/1219423127131717633?s=20)
++ [City-roads App](https://github.com/anvaka/city-roads)
