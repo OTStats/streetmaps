@@ -15,7 +15,7 @@
 + [Print Beautiful City Street Maps with R](https://taraskaduk.com/2019/12/20/print-maps/)
 + [The Beautiful Hidden Logic of Cities](https://erdavis.com/2019/07/27/the-beautiful-hidden-logic-of-cities/)
 + [Road Suffixes in the USA – Take 2](https://erdavis.com/2019/07/04/road-suffixes-in-the-usa-take-2/)
-
++ [Personal Art Map with R](http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/)
 + [Nashville map](https://society6.com/product/nashville-white-map_poster?sku=s6-8457988p66a213v756)
 
 
