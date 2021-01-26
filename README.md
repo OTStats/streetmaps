@@ -17,7 +17,7 @@
 + [Road Suffixes in the USA – Take 2](https://erdavis.com/2019/07/04/road-suffixes-in-the-usa-take-2/)
 + [Personal Art Map with R](http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/)
 + [Nashville map](https://society6.com/product/nashville-white-map_poster?sku=s6-8457988p66a213v756)
-
++ [Taras Kaduk: Print Personalized Street Maps Using R](https://taraskaduk.com/posts/2021-01-18-print-street-maps/)
 
 + [city-roads tweet](https://twitter.com/paldhous/status/1219423127131717633?s=20)
 + [City-roads App](https://github.com/anvaka/city-roads)
