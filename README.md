@@ -18,6 +18,7 @@
 + [Personal Art Map with R](http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/)
 + [Nashville map](https://society6.com/product/nashville-white-map_poster?sku=s6-8457988p66a213v756)
 + [Taras Kaduk: Print Personalized Street Maps Using R](https://taraskaduk.com/posts/2021-01-18-print-street-maps/)
++ [R for Journalists: how to access openstreetmaps](http://rforjournalists.com/2020/12/15/how-to-access-open-street-map-in-r/)
 
 + [city-roads tweet](https://twitter.com/paldhous/status/1219423127131717633?s=20)
 + [City-roads App](https://github.com/anvaka/city-roads)
