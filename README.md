@@ -22,5 +22,6 @@
 
 + [city-roads tweet](https://twitter.com/paldhous/status/1219423127131717633?s=20)
 + [City-roads App](https://github.com/anvaka/city-roads)
++ [leeolney on Twitter](https://twitter.com/leeolney3/status/1456484664869326848?s=11) (and gist [here](https://gist.github.com/leeolney3/95cc3418cc719f1e89911d921b98873d))
 
 + [#Dataviz tutorial: Mapping San Francisco Home Prices in R](http://urbanspatialanalysis.com/dataviz-tutorial-mapping-san-francisco-home-prices-using-r/)
