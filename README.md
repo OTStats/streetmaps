@@ -4,10 +4,12 @@ Years ago I stumbled across Christian Burkhart's post where he shared how to cre
 
 \
 This is Christian's take:\
-![](plots/streetmaps-ggplot2tor.png){width="534"}
+![](plots/streetmaps-ggplot2tor.png)
 
 Here are mine:\
-![](plots/map.png){width="384"}![](plots/20250105 valencia.png){width="384"}
+![](plots/map.png)
+
+![](plots/20250105-valencia.png)
 
 # Other Resources
 
